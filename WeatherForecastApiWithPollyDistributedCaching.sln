@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastApiWithPollyDistributedCaching", "src\WeatherForecastApiWithPollyDistributedCaching.csproj", "{F1DC2563-6311-4C1E-A3BD-3B2764C3367C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{04C7295C-05FE-4019-A039-B54B4466F51B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ADCF8CA0-5B6B-477C-8717-0F9C949257CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyDistributedCaching.IntegrationTests", "test\PollyDistributedCaching.IntegrationTests\PollyDistributedCaching.IntegrationTests.csproj", "{CAC9090B-109F-4520-A98B-572B1641998F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1DC2563-6311-4C1E-A3BD-3B2764C3367C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DC2563-6311-4C1E-A3BD-3B2764C3367C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DC2563-6311-4C1E-A3BD-3B2764C3367C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DC2563-6311-4C1E-A3BD-3B2764C3367C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC9090B-109F-4520-A98B-572B1641998F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC9090B-109F-4520-A98B-572B1641998F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC9090B-109F-4520-A98B-572B1641998F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC9090B-109F-4520-A98B-572B1641998F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1DC2563-6311-4C1E-A3BD-3B2764C3367C} = {04C7295C-05FE-4019-A039-B54B4466F51B}
+		{CAC9090B-109F-4520-A98B-572B1641998F} = {ADCF8CA0-5B6B-477C-8717-0F9C949257CA}
+	EndGlobalSection
+EndGlobal
